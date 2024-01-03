@@ -1,11 +1,13 @@
 {
   "name": "empreendedoresustentaveis.github.io",
+  "homepage": "https://empreendedoresustentaveis.github.io/src/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
+    "gh-pages": "^6.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
