@@ -1,6 +1,6 @@
 {
   "name": "empreendedoresustentaveis.github.io",
-  "homepage": "https://empreendedoresustentaveis.github.io/src/",
+  "homepage": "https://empreendedoresustentaveis.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
