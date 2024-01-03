@@ -1,0 +1,90 @@
+{
+  "Header": {
+    "title": "",
+    "paragraph": "Plantando Negócios Sustentáveis, Colhendo Sucesso Financeiro."
+  },
+  "About": {
+    "paragraph": "Estamos forjando o caminho para os negócios sustentáveis e impulsionando a inclusão financeira por meio de soluções inovadoras. O Empreendedores Sustentáveis é guiado pela inovação com propósito, onde aplicamos soluções de Inteligência Artificial (IA) e Blockchain para catalisar a sustentabilidade nos negócios, democratizando o acesso ao crédito e fomentando práticas ESG. Em 2023, participamos da segunda edição do InovaHack, evento promovido pelo Movimento Black Money conquistando o 3º lugar entre mais de 150 profissionais. Esse reconhecimento destaca nossa habilidade em enfrentar desafios complexos e oferecer soluções inovadoras que moldam o cenário empresarial. Junte-se a nós no Empreendedores Sustentáveis enquanto lideramos a revolução dos negócios sustentáveis, construindo pontes para um futuro marcado pelo sucesso e pela sustentabilidade.",
+    "Why": [
+      "Inovação Sustentável",
+      "IA & Blockchain"
+    ],
+    "Why2": [
+      "Impacto Positivo",
+      "Compromisso ESG"
+    ],
+    "Why3": [
+      "Acesso Facilitado ao Crédito",
+      "Parcerias Estratégicas"
+    ],
+    "Why4": [
+      "Práticas ESG Integradas",
+      "Transparência e Segurança"
+    ]
+  },
+  "Value": {
+    "paragraph": "ESTAMOS MOLDANDO UM FUTURO EM QUE O ACESSO AO CRÉDITO É FACILITADO, PROMOVENDO O CRESCIMENTO DOS NEGÓCIOS E CONSTRUINDO UMA COMUNIDADE SUSTENTÁVEL."
+  },
+  "Services": [
+    {
+      "icon": "fa fa-bar-chart",
+      "name": "Análise da Cadeia Produtiva",
+      "text": "Utilizamos Inteligência Artificial (IA) e Life Cycle Analysis (LCA) para avaliar a sustentabilidade da cadeia produtiva."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Consultoria em Boas Práticas ESG",
+      "text": "Oferecemos consultoria especializada para integrar práticas ambientais, sociais e de governança nas operações dos empreendedores."
+    },
+    {
+      "icon": "fa fa-trophy",
+      "name": "Certificações ESG",
+      "text": "Facilitamos o processo de obtenção de certificações ESG, fortalecendo a credibilidade dos negócios sustentáveis."
+    },
+    {
+      "icon": "fa fa-chain-broken",
+      "name": "Registro da Cadeia Produtiva com Blockchain",
+      "text": "Asseguramos a integridade e rastreabilidade da cadeia produtiva sustentável por meio da tecnologia Blockchain."
+    },
+    {
+      "icon": "fa fa-money",
+      "name": "Mediação para Concessão de Crédito",
+      "text": "Conectamos empreendedores a fundos de impacto socioambiental, facilitando o acesso a crédito para negócios alinhados com práticas ESG."
+    },
+    {
+      "icon": "fa fa-shield",
+      "name": "Registro de Crédito com Blockchain",
+      "text": "Garantimos a transparência e segurança no registro de concessões de crédito, utilizando a tecnologia Blockchain."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpeg",
+      "name": "Keu Araújo",
+      "job": "Founder • CEO"
+    },
+    {
+      "img": "img/team/02.jpeg",
+      "name": "Alexandra Raibolt",
+      "job": "Founder • CTO"
+    }
+  ],
+  "Contact": {
+    "email": "contato@empreendedoresustentaveis.com.br",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-line-chart",
+      "title": "Inteligência Artificial",
+      "text": "Com algoritmos avançados de Inteligência Artificial (IA), oferecemos uma análise detalhada da sua cadeia produtiva, identificando áreas de aprimoramento para promover a sustentabilidade."
+    },
+    {
+      "icon": "fa fa-link",
+      "title": "Blockchain",
+      "text": "Asseguramos segurança, transparência e rastreabilidade na sua cadeia produtiva sustentável através de um selo distintivo conferido por nós via Blockchain, garantindo autenticidade aos negócios sustentáveis."
+    }
+  ]
+}
