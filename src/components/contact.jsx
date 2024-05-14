@@ -122,7 +122,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.instagram : "/"}>
+                    <a href={props.data ? props.data.instagram : "https://www.instagram.com/esustentaveis/"}>
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
@@ -132,7 +132,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href={props.data ? props.data.youtube : "https://www.youtube.com/@esustentaveis"}>
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
