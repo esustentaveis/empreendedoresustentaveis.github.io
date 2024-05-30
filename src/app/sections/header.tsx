@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Header = (props) => {
   return (
     <header id="header">
@@ -13,9 +11,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <div className="btn-custom-container">
-                  <h1>
-                    {props.data ? props.data.paragraph : "Carregando"}
-                  </h1>
+                  <h1>{props.data ? props.data.paragraph : "Carregando"}</h1>
                   <a
                     href="#value"
                     className="btn btn-custom btn-lg page-scroll"
