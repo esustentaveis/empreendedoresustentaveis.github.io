@@ -1,6 +1,7 @@
+"use client";
+
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
 
 const initialState = {
   name: "",
@@ -14,14 +15,19 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
 
     emailjs
-      .sendForm("service_ss8vqca", "template_cpp5kz4", e.target, "DGMxb_MLCAGnKzPBB")
+      .sendForm(
+        "service_ss8vqca",
+        "template_cpp5kz4",
+        e.target,
+        "DGMxb_MLCAGnKzPBB"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -41,7 +47,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Entre em Contato</h2>
                 <p>
-                  Preencha o formulário abaixo para nos enviar um e-mail, e entraremos em contato com você o mais rápido possível.
+                  Preencha o formulário abaixo para nos enviar um e-mail, e
+                  entraremos em contato com você o mais rápido possível.
                 </p>
               </div>
               <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
@@ -122,7 +129,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.instagram : "https://www.instagram.com/esustentaveis/"}>
+                    <a
+                      href={
+                        props.data
+                          ? props.data.instagram
+                          : "https://www.instagram.com/esustentaveis/"
+                      }
+                    >
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
@@ -132,7 +145,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "https://www.youtube.com/@esustentaveis"}>
+                    <a
+                      href={
+                        props.data
+                          ? props.data.youtube
+                          : "https://www.youtube.com/@esustentaveis"
+                      }
+                    >
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
@@ -145,7 +164,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            Copyright &copy; 2023 Empreendedores Sustentáveis • All rights reserved
+            Copyright &copy; 2023 Empreendedores Sustentáveis • All rights
+            reserved
           </p>
         </div>
       </div>
