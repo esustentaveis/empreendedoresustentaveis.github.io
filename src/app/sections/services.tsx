@@ -12,10 +12,10 @@ export const Services = (props: any) => {
             abordam as principais necessidades de negócios sustentáveis.
           </p>
         </div>
-        <div className="row">
+        <div className=" bg-red-500 grid grid-cols-3 grid-rows-2">
           {props.data
             ? props.data.map((d: any, i: any) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`}>
                   {" "}
                   <i className={d.icon}></i>
                   <div className="service-desc">

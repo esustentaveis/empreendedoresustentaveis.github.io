@@ -14,7 +14,7 @@ export default function Index() {
     <main>
       <Navigation />
       <Header data={JsonData.Header} />
-      <Posts />
+      {/* <Posts /> */}
       <Value data={JsonData.Value} />
       <Features data={JsonData.Features} />
       <About data={JsonData.About} />
