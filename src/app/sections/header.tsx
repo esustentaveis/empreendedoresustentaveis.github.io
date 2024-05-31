@@ -1,4 +1,4 @@
-export const Header = (props) => {
+export const Header = (props: any) => {
   return (
     <header id="header">
       <div className="intro">

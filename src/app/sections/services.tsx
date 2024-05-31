@@ -1,18 +1,20 @@
 import React from "react";
 
-export const Services = (props) => {
+export const Services = (props: any) => {
   return (
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>Nossos Serviços</h2>
           <p>
-          Descubra como o Empreendedores Sustentáveis está revolucionando o suporte a empreendedores por meio de serviços abrangentes que abordam as principais necessidades de negócios sustentáveis.
+            Descubra como o Empreendedores Sustentáveis está revolucionando o
+            suporte a empreendedores por meio de serviços abrangentes que
+            abordam as principais necessidades de negócios sustentáveis.
           </p>
         </div>
         <div className="row">
           {props.data
-            ? props.data.map((d, i) => (
+            ? props.data.map((d: any, i: any) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
                   <i className={d.icon}></i>

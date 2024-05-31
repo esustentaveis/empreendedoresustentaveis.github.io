@@ -1,6 +1,6 @@
 import React from "react";
 
-export const About = (props) => {
+export const About = (props: any) => {
   return (
     <div id="about">
       <div className="container">
@@ -22,11 +22,11 @@ export const About = (props) => {
           <div className="col-xs-12">
             <div className="about-text">
               <h3>Porque Nos Escolher?</h3>
-              <div className="row" align="center">
+              <div className="row">
                 <div className="col-lg-3 col-sm-4 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Why.map((d, i) => (
+                      ? props.data.Why.map((d: any, i: any) => (
                           <li key={`${d}-${i}`}>{d}</li>
                         ))
                       : "Carregando"}
@@ -35,7 +35,7 @@ export const About = (props) => {
                 <div className="col-lg-3 col-sm-4 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Why2.map((d, i) => (
+                      ? props.data.Why2.map((d: any, i: any) => (
                           <li key={`${d}-${i}`}> {d}</li>
                         ))
                       : "Carregando"}
@@ -44,7 +44,7 @@ export const About = (props) => {
                 <div className="col-lg-3 col-sm-4 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Why3.map((d, i) => (
+                      ? props.data.Why3.map((d: any, i: any) => (
                           <li key={`${d}-${i}`}> {d}</li>
                         ))
                       : "Carregando"}
@@ -53,7 +53,7 @@ export const About = (props) => {
                 <div className="col-lg-3 col-sm-4 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Why4.map((d, i) => (
+                      ? props.data.Why4.map((d: any, i: any) => (
                           <li key={`${d}-${i}`}> {d}</li>
                         ))
                       : "Carregando"}

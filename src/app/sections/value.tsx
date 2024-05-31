@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Value = (props) => {
+export const Value = (props: any) => {
   return (
     <div id="value">
       <div className="container">

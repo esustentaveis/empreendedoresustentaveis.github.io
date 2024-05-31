@@ -8,15 +8,15 @@ const initialState = {
   email: "",
   message: "",
 };
-export const Contact = (props) => {
-  const [setState] = useState(initialState);
+export const Contact = (props: any) => {
+  const [setState] = useState<any>(initialState);
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setState((prevState: any) => ({ ...prevState, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
 
     /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
@@ -51,7 +51,7 @@ export const Contact = (props) => {
                   entraremos em contato com você o mais rápido possível.
                 </p>
               </div>
-              <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -87,7 +87,7 @@ export const Contact = (props) => {
                     name="message"
                     id="message"
                     className="form-control"
-                    rows="4"
+                    rows={4}
                     placeholder="Digite sua mensagem aqui..."
                     required
                     onChange={handleChange}

@@ -1,4 +1,4 @@
-export const Features = (props) => {
+export const Features = (props: any) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
@@ -6,7 +6,7 @@ export const Features = (props) => {
           <h2>Tecnologias Disruptivas</h2>
           <div className="row">
             {props.data
-              ? props.data.map((d, i) => (
+              ? props.data.map((d: any, i: any) => (
                   <div key={`${d.title}-${i}`} className="col-xs-6 col-md-6">
                     {" "}
                     <i className={d.icon}></i>
